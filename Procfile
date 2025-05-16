@@ -1,1 +1,1 @@
-web: gunicorn Audio_to_Sign_Converter.wsgi:application
+gunicorn Audio_to_Sign_Converter.wsgi:application
