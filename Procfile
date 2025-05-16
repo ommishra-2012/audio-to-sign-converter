@@ -1,1 +1,1 @@
-web: gunicorn config.wsgi --timeout 120 --log-file -
+gunicorn config.wsgi:application --bind 0.0.0.0:8080 --log-level debug
