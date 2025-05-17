@@ -1,4 +1,4 @@
- function startListening() {
+function startListening() {
     const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
     recognition.lang = 'en-US';
     recognition.start();
@@ -65,3 +65,4 @@
         console.error('Speech recognition error', event);
     };
 }
+
