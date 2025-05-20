@@ -65,4 +65,3 @@ function startListening() {
         console.error('Speech recognition error', event);
     };
 }
-
