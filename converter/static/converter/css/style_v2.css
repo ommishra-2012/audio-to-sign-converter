@@ -116,11 +116,11 @@ img:hover {
 }
 
 .word-line {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
 }
-
 
 .letter-line {
     display: flex;
@@ -129,9 +129,9 @@ img:hover {
 }
 
 .sign-img {
-    width: 150px;
-    height: auto;
-    margin: 8px;
+    height: auto
+    max-height: 120px;
+    margin: 5px;
 }
 
 .spoken-text {
@@ -140,4 +140,11 @@ img:hover {
     font-weight: bold;
     text-align: center;
     color: #333;
+}
+
+#output-text {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
 }

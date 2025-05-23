@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <title>Audio to Sign Language Converter</title>
     {% load static %}
-    <link rel="stylesheet" href="{% static 'converter/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'converter/css/style_v2.css' %}">
 </head>
 <body>
     <div class="container">
         <h1>Audio to Sign Converter</h1>
         <button onclick="startListening()">🎤 Start Listening</button>
-        <div id="output" class="spoken-text"></div>
-        <div id="sign-display" class="output"></div>
+        <div id="output-text"></div>
+        <div id="sign-display"></div>
     </div>
-
-    <script src="{% static 'converter/js/speech_v1.js' %}"></script>
+    <script src="{% static 'converter/js/speech_v2.js' %}"></script>
 </body>
 </html>
