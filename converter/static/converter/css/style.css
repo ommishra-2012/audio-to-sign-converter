@@ -114,3 +114,30 @@ img:hover {
     max-height: 200px;
   }
 }
+
+.word-line {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.letter-line {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.sign-img {
+    width: 150px;
+    height: auto;
+    margin: 8px;
+}
+
+.spoken-text {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
