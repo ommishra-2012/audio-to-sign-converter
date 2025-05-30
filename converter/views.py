@@ -4,7 +4,6 @@ from django.shortcuts import render
 from django.http import JsonResponse
 import json
 
-# 👇 This is the missing view
 def index(request):
     return render(request, 'converter/index.html')
 
