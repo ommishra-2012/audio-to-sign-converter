@@ -11,6 +11,8 @@ Usage
 Contributing
 License
 Contact
+
+
 Introduction
 Communication is a fundamental human need. For individuals with hearing impairments, spoken language can be a significant barrier. This project provides a solution by converting audio input into a sequence of signs, which can then be displayed visually. This tool can be invaluable in various scenarios, including educational settings, public announcements, and personal communication.
 
@@ -33,16 +35,17 @@ Installation
 
 git clone https://ommishra-2012/audio-to-sign-converter.git
 cd audio-to-sign-converter
+ 
+ 
  Create and activate a virtual environment (recommended):
-
-Bash
 python -m venv venv
 # On Windows:
 .\venv\Scripts\activate
 # On macOS/Linux:
 source venv/bin/activate
+ 
+ 
  Install the required dependencies:
-
 pip install -r requirements.txt
  Note: The requirements.txt file will list all necessary libraries such as SpeechRecognition, PyDub, OpenCV (if visual generation is implemented), and any NLP libraries used.
 
